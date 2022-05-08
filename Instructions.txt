@@ -1,0 +1,20 @@
+                        Instructions for add or change an operator in this calculator
+                        _____________________________________________________________
+
+1. select the priority of the new operator relative to the other operators
+
+2. add it to the dictionary OPERATORS_STRENGTH_DICT in the python file name const as the key with the value that contains the priority
+
+3. add the operator to the appropriate list in the python file name const according to the amount and location of the operands it receives.
+
+4. go to the Python file called calculator, write in it a function corresponding to your operator that gets the
+   amount of operands it needs and returns the result of the calculation
+
+5. add the operator along with its function name to the dictionary OPERATORS_FUNCTIONS_DICT found in the calculator python file.
+
+6. in case you just want to change the priority of operator that already exists in this calculator you just need to replace
+   the value of this operator key in the dictionary OPERATORS_STRENGTH_DICT in the python file name const
+
+7. in case you want to delete one operator from the calculator you just need to delete it from the dictionary and list in the python file name const
+
+GOOD LUCK!
